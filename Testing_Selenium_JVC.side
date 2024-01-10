@@ -1,0 +1,62 @@
+{
+  "id": "aa03ab29-6396-46c0-8419-ab928c5e9afb",
+  "version": "2.0",
+  "name": "Testing_Selenium_JVC",
+  "url": "http://127.0.0.1:8000/pagina_web_a_probar/",
+  "tests": [{
+    "id": "57d3a4a1-d719-404a-b81e-e8051236aacf",
+    "name": "CasoPrueba1",
+    "commands": [{
+      "id": "8ab6fe4a-d011-410f-a462-729789236c15",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/pagina_web_a_probar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a027472d-20a6-4aeb-b0a6-535f04bc2a0e",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19d07c54-37f8-4db9-881b-3c7c2cbcaaf8",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [],
+      "value": "Javier"
+    }, {
+      "id": "38fbe022-baa0-40f7-ada9-5741aca3060d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Insertar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8df8cd72-7e01-4e8d-bc1a-06efefdbbc03",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=tbody tr:last-child td:nth-child(2) ",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea9e72c1-5ec1-4de5-a4b0-7d3dbebc5323",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:8000/pagina_web_a_probar/"],
+  "plugins": []
+}
