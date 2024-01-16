@@ -48,6 +48,168 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "483f014b-1b8c-4cf9-a920-bd939ce494ed",
+    "name": "CasoPrueba2",
+    "commands": [{
+      "id": "c5ae82eb-650a-4d4e-a610-93ff91ad1657",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/pagina_web_a_probar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daa6a7c5-e8c2-4758-b893-c1164dab3b2c",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac45fd4a-5867-4d20-b044-2d9c5fca3b38",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [],
+      "value": "Javier"
+    }, {
+      "id": "d498c967-8838-4618-87bf-21ff778538a2",
+      "comment": "",
+      "command": "click",
+      "target": "id=apellidos",
+      "targets": [
+        ["id=apellidos", "id"],
+        ["name=apellidos", "name"],
+        ["css=#apellidos", "css:finder"],
+        ["xpath=//input[@id='apellidos']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f47d68-9cdb-448b-bbb5-3312eb213f0d",
+      "comment": "",
+      "command": "type",
+      "target": "id=apellidos",
+      "targets": [
+        ["id=apellidos", "id"],
+        ["name=apellidos", "name"],
+        ["css=#apellidos", "css:finder"],
+        ["xpath=//input[@id='apellidos']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Vinal Costa"
+    }, {
+      "id": "7baef646-97d7-45ac-a113-fd2ef099716f",
+      "comment": "",
+      "command": "click",
+      "target": "id=rol",
+      "targets": [
+        ["id=rol", "id"],
+        ["name=rol", "name"],
+        ["css=#rol", "css:finder"],
+        ["xpath=//select[@id='rol']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/div/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91e620b6-55da-4f50-b676-f9441d83425c",
+      "comment": "",
+      "command": "select",
+      "target": "id=rol",
+      "targets": [],
+      "value": "label=Editor"
+    }, {
+      "id": "2864e3a5-a8a6-432f-a755-74d5d6433023",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(3)",
+      "targets": [
+        ["css=option:nth-child(3)", "css:finder"],
+        ["xpath=//select[@id='rol']/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Editor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c243ef70-f1a1-4f5f-878d-1d262b9ed84e",
+      "comment": "",
+      "command": "click",
+      "target": "id=activo",
+      "targets": [
+        ["id=activo", "id"],
+        ["name=activo", "name"],
+        ["css=#activo", "css:finder"],
+        ["xpath=//input[@id='activo']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11eb7773-6609-4f0e-bf3c-e59a0b7625c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Insertar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3f9656-ce9b-4ee8-b31c-5909e92cc09e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Insertar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4470022e-8a17-4a15-a851-cb707332d584",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario_alta']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Insertar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "58f0da81-107b-4747-b4e6-9373c6868797",
+    "name": "CasoPrueba3",
+    "commands": [{
+      "id": "6b128c2a-941f-45ed-9969-679764257aa2",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/pagina_web_a_probar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b683634c-40d3-473a-ab1e-553186a39abe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-danger",
+      "targets": [
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//tr[@id='1']/td[6]/button", "xpath:idRelative"],
+        ["xpath=//td[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Borrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "ea9e72c1-5ec1-4de5-a4b0-7d3dbebc5323",
